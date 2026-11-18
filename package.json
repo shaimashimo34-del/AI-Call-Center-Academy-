@@ -1,0 +1,15 @@
+{
+  "name": "ai-call-center-academy-realtime",
+  "version": "10.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env server.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=20.6.0"
+  }
+}
